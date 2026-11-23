@@ -4,6 +4,8 @@
 
 # The World on Monday, 23 November 2026
 
-One image summing up the world's news of Monday, 23 November 2026 — built for the make.fun bounty "Sum up 23 November's world news in one image".
+One image summing up the world's news of Monday, 23 November 2026 — built for the make.fun bounty "Sum up 23 November's world news in one image". Version A (Klasik): a dense broadsheet front page on cream paper, serif masthead, 35 stories, each with its own original illustration, plus a realistic world map with the stories numbered on it.
 
-How it runs: `main.py` is Python 3.13, standard library only, no network, deterministic. It checks `entry.png` is a PNG inside the competition's limits and places an exact copy at the output location the grader asks for.
+The three lead stories are Ukraine sinking the Russian corvette Merkury with sea drones at Benghazi, Libya; the Russian drone strike on a five-storey apartment block in Dymer, Ukraine, whose toll rose to 11 on Monday as rescuers pulled a 7-year-old boy alive from the rubble; and the AI sell-off that sent Japan's Nikkei down 5.06% and the S&P 500 down 3.7%. Also inside: COP31 collapsing in Antalya with no deal, Democrats winning at least 258 House seats — their largest majority since 1992 — the Cikande candy factory fire toll rising to 24, the US probe into Nvidia chip sales to China, Liverpool routing 10-man Manchester United 4-0 in Mauricio Pochettino's debut, drone strikes on Khartoum, the Houthi claim of a Saudi refinery attack, Alcaraz winning his first ATP Finals title, Marquez equalling Agostini's eighth MotoGP title, and Boca Juniors winning the Copa Sudamericana — plus 22 more stories from the day. A DATE CHECK footer names the Sunday 22 November stories left out, so every story here happened, or was first reported, on Monday 23 November 2026.
+
+How it runs: `main.py` is Python 3.13, standard library only, no network, deterministic. It checks `entry.png` is a whole PNG inside the competition's limits — signature, IHDR checksum, dimensions, and a trailing IEND chunk — and places an exact copy at the output location the grader asks for.
